@@ -555,17 +555,17 @@ const Home = () => {
         >
           <div className="flex flex-col items-center justify-center">
             <div className="flex flex-row items-center justify-center">
-              <Image
+              {/* <Image
                 className="animate-bounce"
                 width={256}
                 height={256}
                 src="/icon-256.svg"
                 alt="unSAGED Logo"
                 priority
-              />
+              /> */}
             </div>
             <div className="flex flex-row items-center justify-center">
-              <h2 className="text-xl font-bold text-primary-500">{text}</h2>
+              <h2 className="text-l font-bold text-primary-500">{text}</h2>
             </div>
           </div>
         </div>

@@ -218,10 +218,10 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             >
               {selectedConversation?.messages.length === 0 ? (
                 <div className="h-full w-full px-4 flex flex-col self-center items-center align-middle justify-center select-none">
-                  <div className="text-center text-black dark:text-white mb-2 text-xl font-light">
+                  {/* <div className="text-center text-black dark:text-white mb-2 text-xl font-light">
                     {quote}
-                  </div>
-                  <div className="animate-zoom-pulse-slow">
+                  </div> */}
+                  {/* <div className="animate-zoom-pulse-slow">
                     <div className="flex flex-row self-center items-center align-middle justify-center">
                       <div
                         className="h-[64px] z-10 flex flex-row self-center items-start align-middle justify-center
@@ -243,7 +243,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               ) : (
                 <>

@@ -265,8 +265,8 @@ export const ChatInput = ({
   return (
     <div
       className="absolute bottom-0 left-0 w-full border-transparent bg-gradient-to-b 
-      dark:border-white/20 from-transparent via-[#f6f7ff] to-[#e9ebff]
-      dark:via-[#1e2328] dark:to-[#191d22]"
+      dark:border-white/20 from-transparent via-[#fafafa] to-[#f3f3f3]
+      dark:via-[#262626] dark:to-[#212121]"
     >
       <div
         className="relative flex flex-col mb-2 mt-4 last:mb-2 md:mx-4 md:mt-[52px]
@@ -315,8 +315,8 @@ export const ChatInput = ({
           className="relative mx-4 mb-4 flex flex-grow flex-col rounded-md border
         border-black/10 bg-white shadow-[0_0_10px_rgba(0,0,0,0.10)] dark:border-gray-900/50
         dark:shadow-[0_0_15px_rgba(0,0,0,0.10)]
-        bg-gradient-to-r from-white via-[#fdf4ff] to-white
-        dark:from-[#40414F] dark:via-[#4d3f55] dark:to-[#40414F]
+        bg-gradient-to-r from-white via-[#fefefe] to-white
+        dark:from-[#414141] dark:via-[#545454] dark:to-[#4c4c4c]
         bg-175% animate-bg-pan-slow"
         >
           <textarea
